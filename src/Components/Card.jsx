@@ -7,21 +7,21 @@ function Card({width, start, para, dataIndex}) {
         {toptitle: "Get In Touch", heading: <>Let's get to it.<br/>together.</>}
     ];
   return (
-    <motion.div whileHover={{padding: "25px"}} className= {`${width} hover:bg-purple-600 bg-zinc-800 rounded-xl p-4 min-h-[23rem] flex flex-col justify-between`}>
+    <motion.div whileHover={{padding: "25px"}} className= {`${width} hover:bg-purple-600 bg-zinc-800 rounded-xl p-4 lg:p-5 lg:min-h-[24rem] sm:min-h-[18rem] flex flex-col justify-between`}>
         <div>
             <div className='flex w-full items-center justify-between'>
                 <h5 className='font-medium text-sm text-zinc-400'>{data[dataIndex].toptitle}</h5>
                 <FaArrowRightLong />
             </div>
-            <h1 className='text-3xl font-medium mt-5'>{data[dataIndex].heading}</h1>
+            <h1 className='text-md lg:text-3xl font-medium mt-5'>{data[dataIndex].heading}</h1>
         </div>
         <div className='down w-full'>
             {start && 
                 (<>
-                <h1 className='text-8xl font-semibold tracking-tighter leading-none'>Start a Project</h1>
-                <button className='px-4 py-[6px] mt-5 font-light rounded-full border-[1px] border-zinc'>Contact Us</button>
+                <h1 className='lg:text-8xl text-xl font-semibold tracking-tighter leading-none'>Start a Project</h1>
+                <button className='px-4 lg:px-6 py-[6px] mt-5 font-light rounded-full border-[1px] border-zinc'>Contact Us</button>
                 </>)}
-            {para && <p className='text-sm text-zinc-400 font-medium '>Our Work, Your Choice :)</p>}
+            {para && <p className='text-[2.4vw] lg:text-sm  text-zinc-400 font-medium '>Our Work, Your Choice :)</p>}
         </div>
     </motion.div>
   )

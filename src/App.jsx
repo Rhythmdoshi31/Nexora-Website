@@ -11,7 +11,7 @@ import LocomotiveScroll from 'locomotive-scroll';
 function App() {
   const locomotiveScroll = new LocomotiveScroll();
   return (
-    <div className='h-[100%] w-full bg-[#18181B] text-white'>
+    <div className='h-[100%] w-full bg-[#18181B] text-white overflow-hidden'>
       <Navbar />
       <Work />
       <Stripes />

@@ -55,9 +55,9 @@ function Products() {
         },
       ];
   return (
-    <div className='mt-28 relative'>
+    <div className='mt-36 lg:mt-28 relative'>
         {Products.map((p, index) => <Product  val={p} key={index} index={index} mover={mover}/>)}
-        <div className='w-full h-full absolute top-0 pointer-events-none'>
+        <div className='w-full h-full absolute top-0 pointer-events-none md:flex hidden'>
           <motion.div initial={{y: pos, x: "-50%"}} animate={{y:pos + `rem`}} transition={{ ease:  [0.22, 1, 0.36, 1], duration: 0.5 }}  className='w-[24rem] h-[20rem] absolute left-[46%] overflow-hidden'>
             <motion.div animate={{y: -pos + `rem`}} transition={{ ease:  [0.22, 1, 0.36, 1], duration: 0.5 }} className='w-full h-full'>
             <video
