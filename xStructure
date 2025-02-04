@@ -1,0 +1,17 @@
+COMPONENTS-
+    APP 
+        -NAVBAR
+            -BUTTON
+        -WORK
+        -STRIPES
+            -STRIPES 
+        -PRODUCTS
+            -PRODUCT
+        -MARQUEES
+            -MARQUEE
+        -BLOCKS
+            -BLOCK
+        -FOOTER
+
+
+-> Smoothness - locomotive js
