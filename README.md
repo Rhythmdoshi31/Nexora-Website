@@ -2,7 +2,7 @@
 ✨ A stunning, interactive, and feature-rich website built using React, Tailwind CSS, and Framer Motion!
 
 🌐 Live Demo
-🚀 Experience the magic live! 👉 https://refokus-cloned.netlify.app/
+🚀 Experience the magic live! 👉 https://nexora-website.netlify.app/
 
 🛠️ Features
 ✅ Modern React Features – Leveraging the latest advancements in React.js.
