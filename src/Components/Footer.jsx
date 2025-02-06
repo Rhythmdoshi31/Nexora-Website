@@ -5,7 +5,7 @@ function Footer() {
     const sitemaps =["Home", "Carrers" , "Work" , "About"];
     const policy =["Privacy Policy","Cookie Policy", "Impressum", "Terms"];
   return (
-    <div className='max-w-screen-lg mx-auto flex justify-between py-5 px-2 mt-10 pb-10 lg:flex-row flex-col'>
+    <div className='max-w-screen-lg mx-auto flex justify-between py-5 px-2 mt-9 pb-10 lg:flex-row flex-col'>
         <div>
             <h1 className='font-bold text-7xl text-center lg:text-[10vw]'>nexora.</h1>
             <div className='flex flex-row gap-6  text-zinc-500 text-xs justify-center pt-8 lg:justify-end'>
