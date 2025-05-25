@@ -1,4 +1,4 @@
-🚀 REFOKUS - Modern Website Clone
+🚀 Nexora - Modern Website Clone
 ✨ A stunning, interactive, and feature-rich website built using React, Tailwind CSS, and Framer Motion!
 
 🌐 Live Demo
